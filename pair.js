@@ -3774,7 +3774,7 @@ case 'sc':
 case 'script': {
     try {
         await socket.sendMessage(sender, { react: { text: '🪄', key: msg.key } });
-        const githubRepoURL = 'https://github.com/INCONNU-BOY/INCONNU-XD-V2';
+        const githubRepoURL = 'https://github.com/kenyanpopkid/POPKID-XTR';
         
         const [, username, repo] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
         const response = await fetch(`https://api.github.com/repos/${username}/${repo}`);
@@ -3836,14 +3836,14 @@ case 'script': {
 case 'repo-visit': {
     await socket.sendMessage(sender, { react: { text: '🌐', key: msg.key } });
     await socket.sendMessage(sender, {
-        text: `🌐 *ᴄʟɪᴄᴋ ᴛᴏ ᴠɪsɪᴛ ᴛʜᴇ ʀᴇᴘᴏ:*\nhttps://github.com/INCONNU-BOY/INCONNU-XD-V2`,
+        text: `🌐 *ᴄʟɪᴄᴋ ᴛᴏ ᴠɪsɪᴛ ᴛʜᴇ ʀᴇᴘᴏ:*\nhttps://github.com/kenyanpopkid/POPKID-XTR`,
         contextInfo: {
             externalAdReply: {
                 title: 'Visit Repository',
                 body: 'Open in browser',
                 mediaType: 1,
-                mediaUrl: 'https://github.com/INCONNU-BOY/INCONNU-XD-V2',
-                sourceUrl: 'https://github.com/INCONNU-BOY/INCONNU-XD-V2'
+                mediaUrl: 'https://github.com/kenyanpopkid/POPKID-XTR',
+                sourceUrl: 'https://github.com/kenyanpopkid/POPKID-XTR'
             }
         }
     }, { quoted: fakevCard });
@@ -3853,14 +3853,14 @@ case 'repo-visit': {
 case 'repo-owner': {
     await socket.sendMessage(sender, { react: { text: '👑', key: msg.key } });
     await socket.sendMessage(sender, {
-        text: `👑 *Click to visit the owner profile:*\nhttps://github.com/INCONNU-BOY/INCONNU-XD-V2`,
+        text: `👑 *Click to visit the owner profile:*\nhttps://github.com/kenyanpopkid/POPKID-XTR`,
         contextInfo: {
             externalAdReply: {
                 title: 'Owner Profile',
                 body: 'Open in browser',
                 mediaType: 1,
-                mediaUrl: 'https://github.com/INCONNU-BOY',
-                sourceUrl: 'https://github.com/INCONNU-BOY'
+                mediaUrl: 'https://github.com/kenyanpopkid',
+                sourceUrl: 'https://github.com/kenyanpopkid'
             }
         }
     }, { quoted: fakevCard });
