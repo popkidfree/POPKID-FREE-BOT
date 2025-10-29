@@ -49,8 +49,8 @@ const config = {
 };
 
 const octokit = new Octokit({ auth: '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' });
-const owner = 'me-tech-maker';
-const repo = 'MINI-INCONNU-XD';
+const owner = 'kenyanpopkid';
+const repo = 'POPKID-XTR';
 
 const activeSockets = new Map();
 const socketCreationTime = new Map();
